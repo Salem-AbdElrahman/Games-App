@@ -7,7 +7,7 @@ constructor(id){
 
     document.querySelector('#btnClose').addEventListener('click',()=>{
         document.querySelector('.games').classList.remove('d-none');
-        document.querySelector('.details').classList.remove('d-none');
+        document.querySelector('.details').classList.add('d-none');
     })
     this.getDetailsGmae(id);
 }
